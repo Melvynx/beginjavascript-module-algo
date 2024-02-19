@@ -33,7 +33,7 @@ function findLargestSum(file) {
 }
 
 export const part1 = (file) => {
-  return findLargestSum;
+  return findLargestSum(file);
 };
 
 // À faire après
